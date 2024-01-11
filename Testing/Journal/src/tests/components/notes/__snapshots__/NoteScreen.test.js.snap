@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NoteScreen/> Debe mostrarse correctamente 1`] = `
+<div
+  className="notes__main-content"
+>
+  <div
+    className="notes__appbar"
+  >
+    <span>
+      Saturday, September 12th, 2020
+    </span>
+    <input
+      id="fileSelector"
+      name="file"
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="file"
+    />
+    <div>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Picture
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="notes__content"
+  >
+    <input
+      autoComplete="off"
+      className="notes__input-title"
+      name="title"
+      onChange={[Function]}
+      placeholder="Some awesome title"
+      type="text"
+      value="Title Test"
+    />
+    <textarea
+      className="notes__textarea"
+      name="body"
+      onChange={[Function]}
+      placeholder="What happened today?"
+      value="Body Test"
+    />
+  </div>
+  <div
+    className="notes__footer-container"
+  >
+    <div
+      className="notes__image"
+      style={
+        Object {
+          "backgroundImage": "url(https://images.immediate.co.uk/production/volatile/sites/4/2018/08/untitled-0888e07.jpg?quality=90&resize=940%2C400)",
+        }
+      }
+    />
+    <div
+      className="notes__container-button"
+    >
+      <button
+        className="btn btn-danger"
+        onClick={[Function]}
+        style={
+          Object {
+            "margin": "5px 0px",
+            "width": "50%",
+          }
+        }
+      >
+        <i
+          className="fas fa-trash"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

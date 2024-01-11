@@ -1,0 +1,35 @@
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+nav {
+  background-color: #363a45;
+  margin-right: 15px;
+  text-align: center;
+  width: 250px;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+nav li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-active {
+  color: grey;
+  transition: all .3s ease-out;
+}

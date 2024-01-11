@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <App/> Debe de mostrar <App/> correctamente 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Hola, Soy Goku
+  </h1>
+  <p>
+    Soy un subtítulo
+  </p>
+</div>
+`;

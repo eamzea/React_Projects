@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <RealExampleRed/> Debe mostrarse correctamente 1`] = `
+<div>
+  <p
+    className="h1"
+  >
+    Real Example Ref
+  </p>
+  <hr />
+  <Button
+    active={false}
+    className="mt-5"
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Show/Hide
+  </Button>
+</div>
+`;

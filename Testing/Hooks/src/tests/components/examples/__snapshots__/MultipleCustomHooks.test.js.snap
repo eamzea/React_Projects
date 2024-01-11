@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MultipleCustomHooks/> Debe de mostrarse correctamente 1`] = `
+<div>
+  <p
+    className="h1"
+  >
+    Breaking Bad Quotes
+  </p>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <Button
+    active={false}
+    disabled={false}
+    onClick={[Function]}
+    variant="primary"
+  >
+    Siguiente quote
+  </Button>
+</div>
+`;

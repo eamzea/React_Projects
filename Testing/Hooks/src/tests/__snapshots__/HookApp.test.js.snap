@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HookApp/> Debe mostrarse correctamente 1`] = `
+<Container
+  fluid={true}
+>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      xs={12}
+    >
+      <p
+        className="h1"
+      >
+        Hooks App
+      </p>
+    </Col>
+  </Row>
+</Container>
+`;

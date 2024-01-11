@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "api": ["./api"],
+      "assets": ["./assets"],
+      "components": ["./components"],
+      "hooks": ["./hooks"],
+      "modules": ["./modules"],
+      "pages": ["./pages"],
+      "router": ["./router"],
+      "styles": ["./styles"],
+      "utils": ["./utils"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2021",
+  },
+  "include": [
+    "src"
+  ]
+}
